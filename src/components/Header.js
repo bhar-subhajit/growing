@@ -14,7 +14,9 @@ function Header() {
           alt="logo"
           className="max-h-12"
         />
-        <span className="font-mono text-2xl font-bold">Growing</span>
+        <span className="font-roboto tracking-wide text-2xl font-bold">
+          Growing
+        </span>
       </div>
       <div className="relative text-gray-600">
         <span className="absolute inset-y-0 left-0 flex pl-2">
@@ -33,7 +35,7 @@ function Header() {
           </button>
         </span>
         <input
-          className="h-9 rounded-lg pl-8 w-[calc(30vw)] text-sm shadow-[0_0_3px_#a3a098] outline-0"
+          className="h-9 rounded-lg pl-8 w-[calc(30vw)] text-sm shadow-input border border-borderClr outline-0"
           placeholder="What are you looking for today?"
           value={searchKey}
           onChange={searchStock}
@@ -55,7 +57,7 @@ function Header() {
           </span>
         )}
       </div>
-      <button className="bg-primaryClr rounded min-w-fit h-9 px-8 text-white font-medium">
+      <button className="bg-primaryClr rounded min-w-fit h-10 px-5 text-white font-medium">
         Login/Register
       </button>
     </nav>
