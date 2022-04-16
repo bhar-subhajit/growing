@@ -8,7 +8,7 @@ function Header() {
 
   return (
     <nav className="flex flex-row justify-between max-h-36 py-4 items-center">
-      <div className="flex flex-row items-center">
+      <div className="flex flex-row items-center cursor-pointer">
         <img
           src="https://android25.com/wp-content/uploads/2020/09/stocks-demat-mutual-fund-sip-groww.png"
           alt="logo"
@@ -18,7 +18,7 @@ function Header() {
           Growing
         </span>
       </div>
-      <div className="relative text-gray-600">
+      <div className="relative text-gray-600 ml-[calc(15vw)]">
         <span className="absolute inset-y-0 left-0 flex pl-2">
           <button className="p-1 cursor-default">
             <svg
