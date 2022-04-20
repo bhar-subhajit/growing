@@ -12,7 +12,7 @@ function Dashboard() {
     <div className="w-full flex justify-between">
       <div className="flex flex-col justify-center font-roboto">
         <div className="tracking-wide text-4xl font-bold mb-5">
-          Invest in <span className="text-blue-700 rotate-180">Stocks</span>
+          Invest in <span className="text-blue-700">Stocks</span>
         </div>
         <div className="mb-5 text-sm text-subTextClr">
           Trusted by <span className="font-extrabold">Millions</span> of
